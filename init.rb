@@ -3,7 +3,7 @@ require_dependency 'custom_field_change'
 
 Redmine::Plugin.register :redmine_issue_status_change do
   name 'Redmine Issues Changes '
-  author 'Tyfone'
+  author 'John Paul'
   description 'When changing the issue status "Resloved" automatically custom fields updated by current user or user selected user appears in issue pages and another feature of this plugin when changing the issues status "Re-Opened" disappear custom fields of resolved by and resolution type changing the in DB level'
   version '1.0'
 
